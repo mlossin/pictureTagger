@@ -1,4 +1,4 @@
-﻿using PictureTagger.DataAccess.Sqlite;
+﻿using PictureTagger.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,17 +14,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PictureTagger
+namespace PictureTagger.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SearchTagView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SearchTagView : UserControl
     {
-        public MainWindow()
+        public SearchTagView()
         {
+            DataContext = UiFactory.SearchTagViewModelGet();
             InitializeComponent();
         }
 
+        private void TboxTagSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

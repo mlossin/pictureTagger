@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureTagger", "PictureTagger.Wpf\PictureTagger.csproj", "{3E9E689D-8532-4427-A2FB-055A25CD3D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureTagger.Common", "PictureTagger.Common\PictureTagger.Common.csproj", "{504A72F0-424F-45DB-B09E-007B5C12428E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureTagger.DataAccess.Sqlite", "PictureTagger.DataAccess.Sqlite\PictureTagger.DataAccess.Sqlite.csproj", "{13CD54D2-3308-41C6-A72F-844614CDFB52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3E9E689D-8532-4427-A2FB-055A25CD3D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9E689D-8532-4427-A2FB-055A25CD3D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9E689D-8532-4427-A2FB-055A25CD3D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504A72F0-424F-45DB-B09E-007B5C12428E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504A72F0-424F-45DB-B09E-007B5C12428E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504A72F0-424F-45DB-B09E-007B5C12428E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504A72F0-424F-45DB-B09E-007B5C12428E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CD54D2-3308-41C6-A72F-844614CDFB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CD54D2-3308-41C6-A72F-844614CDFB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CD54D2-3308-41C6-A72F-844614CDFB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CD54D2-3308-41C6-A72F-844614CDFB52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

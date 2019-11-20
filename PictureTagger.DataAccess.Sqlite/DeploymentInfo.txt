@@ -1,0 +1,1 @@
+﻿Das aufrufende Programm muss ebenfalls Sqlite.Core installieren, da sonst die Verbindung nicht mit kommt.
