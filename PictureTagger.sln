@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureTagger", "PictureTagger\PictureTagger.csproj", "{3E9E689D-8532-4427-A2FB-055A25CD3D00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureTagger", "PictureTagger.Wpf\PictureTagger.csproj", "{3E9E689D-8532-4427-A2FB-055A25CD3D00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
